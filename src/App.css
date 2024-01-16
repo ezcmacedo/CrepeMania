@@ -1,3 +1,29 @@
+:root {
+  --AMARELO: #ecfc18;
+  --MAGENTA: #ad00c4;
+  --LARANJA: #b47602;
+  --VERMELHO: RED;
+}
+
+#animation-dropdown {
+  transition: 500ms;
+  rotate: -90deg;
+}
+
+#animation-dropdown::after {
+  rotate: 0deg;
+}
+
+#instagram {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+#gradient {
+  color: whitesmoke;
+  background: linear-gradient(30deg, var(--AMARELO), var(--MAGENTA));
+  border-radius: 6px;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +52,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+body {
+  background-color: #073a09;
 }
 
 @keyframes App-logo-spin {
